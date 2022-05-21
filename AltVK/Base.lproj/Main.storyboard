@@ -19,7 +19,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wellcome to Alt VK" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UQx-B1-YSf">
                                 <rect key="frame" x="20" y="104" width="374" height="23"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="374" id="M12-HN-4oy"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="374" id="M12-HN-4oy"/>
                                     <constraint firstAttribute="height" constant="23" id="MfX-0c-rtk"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
@@ -27,7 +27,7 @@
                                 <nil key="highlightedColor"/>
                                 <color key="shadowColor" systemColor="labelColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VSl-14-Or1">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Введите логи" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VSl-14-Or1">
                                 <rect key="frame" x="95" y="338" width="229" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="229" id="1A4-cx-KVC"/>
@@ -36,20 +36,20 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gWy-EU-jWc">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="введите пароль" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gWy-EU-jWc">
                                 <rect key="frame" x="95" y="412" width="229" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="229" id="8RY-58-AXd"/>
                                     <constraint firstAttribute="height" constant="34" id="s6W-PZ-w3x"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Login" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cGF-SQ-AYz">
                                 <rect key="frame" x="95" y="295" width="229" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35" id="SKi-1g-gSY"/>
-                                    <constraint firstAttribute="width" constant="229" id="rk7-Ve-2gQ"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="229" id="rk7-Ve-2gQ"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" systemColor="systemBackgroundColor"/>
@@ -58,7 +58,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Password" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JFe-6o-eP0">
                                 <rect key="frame" x="95" y="380" width="229" height="24"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="229" id="2ck-iV-TPp"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="229" id="2ck-iV-TPp"/>
                                     <constraint firstAttribute="height" constant="24" id="nTJ-BH-fyK"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
@@ -76,7 +76,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FGw-6W-pxW">
                                 <rect key="frame" x="95" y="489" width="229" height="35"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="229" id="SY4-nl-gMN"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="229" id="SY4-nl-gMN"/>
                                     <constraint firstAttribute="height" constant="35" id="cfC-Pw-gp4"/>
                                 </constraints>
                                 <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -117,7 +117,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="18.840579710144929" y="67.633928571428569"/>
+            <point key="canvasLocation" x="-643" y="18"/>
         </scene>
     </scenes>
     <resources>
