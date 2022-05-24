@@ -8,22 +8,31 @@
 import UIKit
 
 class LoginViewController: UIViewController {
-
-    override func viewDidLoad() {
+     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+   
+         let tapRecognizer = UITapGestureRecognizer(target: self, action: #selector(onTap))
+         self.view.addGestureRecognizer(tapRecognizer)
+         
+         NotificationCenter.default.addObserver(self, selector: #selector(keyboardDidShow), name: UIResponder.keyboardDidShowNotification, object: nil)
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    
+    
+    @objc func keyboardDidShow(){
+         print("KeyboardShow")
     }
-    */
-
+    
+    
+    
+    @objc func onTap(){
+        self.view.endEditing(true)
+    }
+    
+    
+    
+    deinit{
+        NotificationCenter.default.removeObserver(self)
+    }
+   
 }
