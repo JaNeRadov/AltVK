@@ -8,22 +8,52 @@
 import UIKit
 
 class LoginViewController: UIViewController {
-
-    override func viewDidLoad() {
+     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+   
+         
+         //MARK: - скрытие клавиатуры
+         let tapRecognizer = UITapGestureRecognizer(target: self, action: #selector(onTap))
+         self.view.addGestureRecognizer(tapRecognizer)
+         
+         NotificationCenter.default.addObserver(self, selector: #selector(keyboardDidShow), name: UIResponder.keyboardDidShowNotification, object: nil)
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    
+    
+    @objc func keyboardDidShow(){
+         print("KeyboardShow")
     }
-    */
-
+    
+    
+    
+    @objc func onTap(){
+        self.view.endEditing(true)
+    }
+    
+    
+    
+    deinit{
+        NotificationCenter.default.removeObserver(self)
+    }
+   
+    
+    //MARK: - Простая проверка логина и пароля 
+    @IBOutlet weak var wellcomeLable: UILabel!
+    @IBOutlet weak var loginTextField: UITextField!
+    @IBOutlet weak var passwordTextField: UITextField!
+    
+    @IBAction func loginButton(_ sender: Any) {
+        if let name = loginTextField.text, name == "admin"{
+            loginTextField.backgroundColor = UIColor.green
+        }else{
+            loginTextField.backgroundColor = UIColor.red
+        }
+        if let password = passwordTextField.text, password == "admin"{
+            passwordTextField.backgroundColor = UIColor.green
+        }else{
+            passwordTextField.backgroundColor = UIColor.red
+        }
+    }
+    
 }
