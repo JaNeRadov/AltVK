@@ -60,6 +60,9 @@
                                                 <rect key="frame" x="69" y="481" width="276" height="31"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Login In"/>
+                                                <connections>
+                                                    <action selector="loginButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WH1-Ju-7KI"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -110,6 +113,11 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="iV2-NV-Ru2" secondAttribute="trailing" id="rfS-Ix-VPK"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="loginTextField" destination="lRj-Da-4yJ" id="qEM-cF-ag3"/>
+                        <outlet property="passwordTextField" destination="lfo-Yi-e4G" id="gZg-Ix-JvN"/>
+                        <outlet property="wellcomeLable" destination="MaW-fL-w4B" id="xix-fe-xGx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
