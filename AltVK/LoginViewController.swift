@@ -43,17 +43,22 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var loginTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
     
+    let toTabBarController = "toTabBarController"
+    
+    
     @IBAction func loginButton(_ sender: Any) {
-        if let name = loginTextField.text, name == "admin"{
-            loginTextField.backgroundColor = UIColor.green
-        }else{
-            loginTextField.backgroundColor = UIColor.red
-        }
-        if let password = passwordTextField.text, password == "admin"{
-            passwordTextField.backgroundColor = UIColor.green
-        }else{
-            passwordTextField.backgroundColor = UIColor.red
-        }
+//        if let name = loginTextField.text, name == "admin"  {
+//            loginTextField.backgroundColor = UIColor.green
+//        }else{
+//            loginTextField.backgroundColor = UIColor.red
+//        }
+//        if let password = passwordTextField.text, password == "admin"{
+//            passwordTextField.backgroundColor = UIColor.green
+//        }else{
+//            passwordTextField.backgroundColor = UIColor.red
+//        }
+        
+        performSegue(withIdentifier: toTabBarController, sender: nil)
     }
     
 }

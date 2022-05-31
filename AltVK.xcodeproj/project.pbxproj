@@ -13,6 +13,8 @@
 		3F3D23DA2837FEE5004BDAEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F3D23D82837FEE5004BDAEB /* LaunchScreen.storyboard */; };
 		3F3D23E2283851FD004BDAEB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3D23E1283851FD004BDAEB /* LoginViewController.swift */; };
 		3F574217283A70F400957107 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F574216283A70F400957107 /* Media.xcassets */; };
+		3FAF29D52846A76100682B1F /* AllGroupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAF29D42846A76100682B1F /* AllGroupController.swift */; };
+		3FAF29D72846A77C00682B1F /* MyFreandsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAF29D62846A77C00682B1F /* MyFreandsController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		3F3D23DB2837FEE5004BDAEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F3D23E1283851FD004BDAEB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		3F574216283A70F400957107 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		3FAF29D42846A76100682B1F /* AllGroupController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllGroupController.swift; sourceTree = "<group>"; };
+		3FAF29D62846A77C00682B1F /* MyFreandsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFreandsController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				3F3D23CD2837FEE3004BDAEB /* AppDelegate.swift */,
 				3F3D23CF2837FEE3004BDAEB /* SceneDelegate.swift */,
 				3F3D23E1283851FD004BDAEB /* LoginViewController.swift */,
+				3FAF29D62846A77C00682B1F /* MyFreandsController.swift */,
+				3FAF29D42846A76100682B1F /* AllGroupController.swift */,
 				3F3D23D32837FEE3004BDAEB /* Main.storyboard */,
 				3F574216283A70F400957107 /* Media.xcassets */,
 				3F3D23D82837FEE5004BDAEB /* LaunchScreen.storyboard */,
@@ -139,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F3D23E2283851FD004BDAEB /* LoginViewController.swift in Sources */,
+				3FAF29D52846A76100682B1F /* AllGroupController.swift in Sources */,
 				3F3D23CE2837FEE3004BDAEB /* AppDelegate.swift in Sources */,
+				3FAF29D72846A77C00682B1F /* MyFreandsController.swift in Sources */,
 				3F3D23D02837FEE3004BDAEB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
