@@ -134,29 +134,22 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="kOQ-ud-9jw">
-                                <rect key="frame" x="0.0" y="138" width="414" height="675"/>
+                                <rect key="frame" x="0.0" y="113" width="414" height="700"/>
                                 <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </tableView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WuU-Dd-jhH">
-                                <rect key="frame" x="186" y="109" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="97d-rx-nr7"/>
                         <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="kOQ-ud-9jw" firstAttribute="leading" secondItem="97d-rx-nr7" secondAttribute="leading" id="GLA-od-xn9"/>
                             <constraint firstItem="97d-rx-nr7" firstAttribute="bottom" secondItem="kOQ-ud-9jw" secondAttribute="bottom" id="fWa-F7-jDM"/>
-                            <constraint firstItem="kOQ-ud-9jw" firstAttribute="top" secondItem="97d-rx-nr7" secondAttribute="top" constant="50" id="ooz-Gm-r10"/>
+                            <constraint firstItem="kOQ-ud-9jw" firstAttribute="top" secondItem="97d-rx-nr7" secondAttribute="top" constant="25" id="ooz-Gm-r10"/>
                             <constraint firstItem="97d-rx-nr7" firstAttribute="trailing" secondItem="kOQ-ud-9jw" secondAttribute="trailing" id="q5y-v0-hJd"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Freand List" id="jwN-Ja-khZ"/>
                     <connections>
-                        <outlet property="receiverLabel" destination="WuU-Dd-jhH" id="wDq-Zk-sb9"/>
+                        <outlet property="tableView" destination="kOQ-ud-9jw" id="xJR-DJ-91X"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MDa-qU-vse" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -213,6 +206,7 @@
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="kqU-ZJ-F9a"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="slQ-T5-ZAc">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
