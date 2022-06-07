@@ -35,4 +35,18 @@ class CustomTableViewCell: UITableViewCell {
         }
         
     }
+    func configure(_ group: Group){
+        
+        photoImageView.image = UIImage(named: group.avatar)
+        nameLabel.text = group.name
+        if let description = group.description{
+        descriptionLabel.text = description
+            descriptionLabel.textColor = #colorLiteral(red: 1, green: 0.2527923882, blue: 1, alpha: 1)
+        }
+        else{
+            descriptionLabel.text = "no description"
+            descriptionLabel.textColor = #colorLiteral(red: 0, green: 0.9768045545, blue: 0, alpha: 1)
+        }
+        
+    }
 }

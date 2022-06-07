@@ -13,11 +13,19 @@
 		3F3D23DA2837FEE5004BDAEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F3D23D82837FEE5004BDAEB /* LaunchScreen.storyboard */; };
 		3F3D23E2283851FD004BDAEB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3D23E1283851FD004BDAEB /* LoginViewController.swift */; };
 		3F574217283A70F400957107 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F574216283A70F400957107 /* Media.xcassets */; };
-		3FAF29D52846A76100682B1F /* AllGroupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAF29D42846A76100682B1F /* AllGroupController.swift */; };
-		3FAF29D72846A77C00682B1F /* MyFreandsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAF29D62846A77C00682B1F /* MyFreandsController.swift */; };
+		3FAF29D52846A76100682B1F /* AllGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAF29D42846A76100682B1F /* AllGroupViewController.swift */; };
+		3FAF29D72846A77C00682B1F /* MyFreandsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAF29D62846A77C00682B1F /* MyFreandsViewController.swift */; };
 		3FB298EB28480708002B7A92 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB298EA28480708002B7A92 /* Friend.swift */; };
 		3FB298EF28480B66002B7A92 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB298ED28480B66002B7A92 /* CustomTableViewCell.swift */; };
 		3FB298F028480B66002B7A92 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FB298EE28480B66002B7A92 /* CustomTableViewCell.xib */; };
+		3FB298F2284A75F7002B7A92 /* Groups.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB298F1284A75F7002B7A92 /* Groups.swift */; };
+		3FB29926284F49ED002B7A92 /* VieController+Deligate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB29925284F49ED002B7A92 /* VieController+Deligate.swift */; };
+		3FB29928284F4A4A002B7A92 /* ViewController+dataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB29927284F4A4A002B7A92 /* ViewController+dataSource.swift */; };
+		3FB2992F284F4B43002B7A92 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB2992D284F4B42002B7A92 /* PhotoCollectionViewCell.swift */; };
+		3FB29930284F4B43002B7A92 /* PhotoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FB2992E284F4B43002B7A92 /* PhotoCollectionViewCell.xib */; };
+		3FB29934284F4D3B002B7A92 /* GaleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB29933284F4D3B002B7A92 /* GaleryViewController.swift */; };
+		3FB29936284F4F03002B7A92 /* ViewController+CollectionLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB29935284F4F03002B7A92 /* ViewController+CollectionLayout.swift */; };
+		3FB29938284F5BD8002B7A92 /* MyGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB29937284F5BD7002B7A92 /* MyGroupViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,11 +37,19 @@
 		3F3D23DB2837FEE5004BDAEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F3D23E1283851FD004BDAEB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		3F574216283A70F400957107 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
-		3FAF29D42846A76100682B1F /* AllGroupController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllGroupController.swift; sourceTree = "<group>"; };
-		3FAF29D62846A77C00682B1F /* MyFreandsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFreandsController.swift; sourceTree = "<group>"; };
+		3FAF29D42846A76100682B1F /* AllGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllGroupViewController.swift; sourceTree = "<group>"; };
+		3FAF29D62846A77C00682B1F /* MyFreandsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFreandsViewController.swift; sourceTree = "<group>"; };
 		3FB298EA28480708002B7A92 /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
 		3FB298ED28480B66002B7A92 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		3FB298EE28480B66002B7A92 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
+		3FB298F1284A75F7002B7A92 /* Groups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Groups.swift; sourceTree = "<group>"; };
+		3FB29925284F49ED002B7A92 /* VieController+Deligate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VieController+Deligate.swift"; sourceTree = "<group>"; };
+		3FB29927284F4A4A002B7A92 /* ViewController+dataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+dataSource.swift"; sourceTree = "<group>"; };
+		3FB2992D284F4B42002B7A92 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		3FB2992E284F4B43002B7A92 /* PhotoCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoCollectionViewCell.xib; sourceTree = "<group>"; };
+		3FB29933284F4D3B002B7A92 /* GaleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaleryViewController.swift; sourceTree = "<group>"; };
+		3FB29935284F4F03002B7A92 /* ViewController+CollectionLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+CollectionLayout.swift"; sourceTree = "<group>"; };
+		3FB29937284F5BD7002B7A92 /* MyGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGroupViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +99,13 @@
 			children = (
 				3FB298EC28480B1A002B7A92 /* Cell */,
 				3F3D23E1283851FD004BDAEB /* LoginViewController.swift */,
-				3FAF29D62846A77C00682B1F /* MyFreandsController.swift */,
-				3FAF29D42846A76100682B1F /* AllGroupController.swift */,
+				3FAF29D62846A77C00682B1F /* MyFreandsViewController.swift */,
+				3FAF29D42846A76100682B1F /* AllGroupViewController.swift */,
+				3FB29937284F5BD7002B7A92 /* MyGroupViewController.swift */,
+				3FB29933284F4D3B002B7A92 /* GaleryViewController.swift */,
+				3FB29925284F49ED002B7A92 /* VieController+Deligate.swift */,
+				3FB29927284F4A4A002B7A92 /* ViewController+dataSource.swift */,
+				3FB29935284F4F03002B7A92 /* ViewController+CollectionLayout.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -93,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				3FB298EA28480708002B7A92 /* Friend.swift */,
+				3FB298F1284A75F7002B7A92 /* Groups.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -100,6 +122,8 @@
 		3FB298EC28480B1A002B7A92 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
+				3FB2992D284F4B42002B7A92 /* PhotoCollectionViewCell.swift */,
+				3FB2992E284F4B43002B7A92 /* PhotoCollectionViewCell.xib */,
 				3FB298ED28480B66002B7A92 /* CustomTableViewCell.swift */,
 				3FB298EE28480B66002B7A92 /* CustomTableViewCell.xib */,
 			);
@@ -165,6 +189,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F3D23DA2837FEE5004BDAEB /* LaunchScreen.storyboard in Resources */,
+				3FB29930284F4B43002B7A92 /* PhotoCollectionViewCell.xib in Resources */,
 				3F574217283A70F400957107 /* Media.xcassets in Resources */,
 				3FB298F028480B66002B7A92 /* CustomTableViewCell.xib in Resources */,
 				3F3D23D52837FEE3004BDAEB /* Main.storyboard in Resources */,
@@ -178,13 +203,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FB29934284F4D3B002B7A92 /* GaleryViewController.swift in Sources */,
+				3FB29936284F4F03002B7A92 /* ViewController+CollectionLayout.swift in Sources */,
+				3FB29938284F5BD8002B7A92 /* MyGroupViewController.swift in Sources */,
 				3F3D23E2283851FD004BDAEB /* LoginViewController.swift in Sources */,
-				3FAF29D52846A76100682B1F /* AllGroupController.swift in Sources */,
+				3FAF29D52846A76100682B1F /* AllGroupViewController.swift in Sources */,
 				3F3D23CE2837FEE3004BDAEB /* AppDelegate.swift in Sources */,
 				3FB298EF28480B66002B7A92 /* CustomTableViewCell.swift in Sources */,
+				3FB29926284F49ED002B7A92 /* VieController+Deligate.swift in Sources */,
 				3FB298EB28480708002B7A92 /* Friend.swift in Sources */,
-				3FAF29D72846A77C00682B1F /* MyFreandsController.swift in Sources */,
+				3FAF29D72846A77C00682B1F /* MyFreandsViewController.swift in Sources */,
 				3F3D23D02837FEE3004BDAEB /* SceneDelegate.swift in Sources */,
+				3FB298F2284A75F7002B7A92 /* Groups.swift in Sources */,
+				3FB2992F284F4B43002B7A92 /* PhotoCollectionViewCell.swift in Sources */,
+				3FB29928284F4A4A002B7A92 /* ViewController+dataSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
