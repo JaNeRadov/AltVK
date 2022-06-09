@@ -9,13 +9,15 @@ import UIKit
 
 class MyGroupViewController: UIViewController {
 
+    // MARK: - Outlet tableView
     @IBOutlet weak var tableView: UITableView!
+   // объявление переменных
     var groups = [Group]()
-    
     let customTableViewCellReuse = "customTableViewCellReuseC"
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        //Регистрация tableView
        tableView.register(UINib(nibName: "CustomTableViewCell", bundle: nil), forCellReuseIdentifier: customTableViewCellReuse)
        tableView.dataSource = self
        tableView.delegate = self

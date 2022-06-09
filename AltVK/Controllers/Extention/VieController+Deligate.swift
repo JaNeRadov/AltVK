@@ -7,6 +7,8 @@
 
 import UIKit
 
+// MARK: - Рассширение MyFreands
+//
 extension MyFreandsViewController: UITableViewDelegate {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         super.prepare(for: segue, sender: sender)
@@ -25,6 +27,7 @@ extension MyFreandsViewController: UITableViewDelegate {
     }
 }
 
+// MARK: - Расширение AllGroup
 extension AllGroupViewController: UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath){
@@ -36,6 +39,8 @@ extension AllGroupViewController: UITableViewDelegate {
         return 100
     }
 }
+
+// MARK: - Расширение MyGroup
 extension MyGroupViewController: UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath){
@@ -47,6 +52,7 @@ extension MyGroupViewController: UITableViewDelegate {
     }
 }
 
+// MARK: - Расширение GaleryView
 extension GaleryViewController: UICollectionViewDelegate {
 
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath){

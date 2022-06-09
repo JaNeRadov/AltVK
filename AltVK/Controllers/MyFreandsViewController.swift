@@ -13,6 +13,7 @@ class MyFreandsViewController: UIViewController {
     
     let fromFriendListToGalery = "fromFriendListTogalery"
     
+    // MARK: - функция добавления друзей
     func filldata() -> [Friend] {
         let friendOne = Friend(name: "Stive", age: "25", avatar: "circle", photoAlbum: ["circle", "ball", "Pinguin"])
         let friendTwo = Friend(name: "Jane", age: "23", avatar: "ball", photoAlbum: ["ball", "Iam", "Mario"])

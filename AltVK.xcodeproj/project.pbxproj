@@ -26,6 +26,8 @@
 		3FB29934284F4D3B002B7A92 /* GaleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB29933284F4D3B002B7A92 /* GaleryViewController.swift */; };
 		3FB29936284F4F03002B7A92 /* ViewController+CollectionLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB29935284F4F03002B7A92 /* ViewController+CollectionLayout.swift */; };
 		3FB29938284F5BD8002B7A92 /* MyGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB29937284F5BD7002B7A92 /* MyGroupViewController.swift */; };
+		3FF838C1285264AE00EB00D1 /* LikeControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF838C0285264AE00EB00D1 /* LikeControlView.swift */; };
+		3FF838C3285264BE00EB00D1 /* LikeControlView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FF838C2285264BE00EB00D1 /* LikeControlView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +52,8 @@
 		3FB29933284F4D3B002B7A92 /* GaleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaleryViewController.swift; sourceTree = "<group>"; };
 		3FB29935284F4F03002B7A92 /* ViewController+CollectionLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+CollectionLayout.swift"; sourceTree = "<group>"; };
 		3FB29937284F5BD7002B7A92 /* MyGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGroupViewController.swift; sourceTree = "<group>"; };
+		3FF838C0285264AE00EB00D1 /* LikeControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeControlView.swift; sourceTree = "<group>"; };
+		3FF838C2285264BE00EB00D1 /* LikeControlView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LikeControlView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F273762284F84990026D102 /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				3FB29935284F4F03002B7A92 /* ViewController+CollectionLayout.swift */,
+				3FB29927284F4A4A002B7A92 /* ViewController+dataSource.swift */,
+				3FB29925284F49ED002B7A92 /* VieController+Deligate.swift */,
+			);
+			path = Extention;
+			sourceTree = "<group>";
+		};
 		3F3D23C12837FEE3004BDAEB = {
 			isa = PBXGroup;
 			children = (
@@ -97,15 +111,14 @@
 		3FB298E7284806CE002B7A92 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				3FF838BD28512D3500EB00D1 /* View */,
 				3FB298EC28480B1A002B7A92 /* Cell */,
 				3F3D23E1283851FD004BDAEB /* LoginViewController.swift */,
 				3FAF29D62846A77C00682B1F /* MyFreandsViewController.swift */,
 				3FAF29D42846A76100682B1F /* AllGroupViewController.swift */,
 				3FB29937284F5BD7002B7A92 /* MyGroupViewController.swift */,
 				3FB29933284F4D3B002B7A92 /* GaleryViewController.swift */,
-				3FB29925284F49ED002B7A92 /* VieController+Deligate.swift */,
-				3FB29927284F4A4A002B7A92 /* ViewController+dataSource.swift */,
-				3FB29935284F4F03002B7A92 /* ViewController+CollectionLayout.swift */,
+				3F273762284F84990026D102 /* Extention */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -128,6 +141,15 @@
 				3FB298EE28480B66002B7A92 /* CustomTableViewCell.xib */,
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		3FF838BD28512D3500EB00D1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3FF838C0285264AE00EB00D1 /* LikeControlView.swift */,
+				3FF838C2285264BE00EB00D1 /* LikeControlView.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,6 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F3D23DA2837FEE5004BDAEB /* LaunchScreen.storyboard in Resources */,
+				3FF838C3285264BE00EB00D1 /* LikeControlView.xib in Resources */,
 				3FB29930284F4B43002B7A92 /* PhotoCollectionViewCell.xib in Resources */,
 				3F574217283A70F400957107 /* Media.xcassets in Resources */,
 				3FB298F028480B66002B7A92 /* CustomTableViewCell.xib in Resources */,
@@ -213,6 +236,7 @@
 				3FB29926284F49ED002B7A92 /* VieController+Deligate.swift in Sources */,
 				3FB298EB28480708002B7A92 /* Friend.swift in Sources */,
 				3FAF29D72846A77C00682B1F /* MyFreandsViewController.swift in Sources */,
+				3FF838C1285264AE00EB00D1 /* LikeControlView.swift in Sources */,
 				3F3D23D02837FEE3004BDAEB /* SceneDelegate.swift in Sources */,
 				3FB298F2284A75F7002B7A92 /* Groups.swift in Sources */,
 				3FB2992F284F4B43002B7A92 /* PhotoCollectionViewCell.swift in Sources */,

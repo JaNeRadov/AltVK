@@ -9,14 +9,17 @@ import UIKit
 
 class GaleryViewController: UIViewController {
 
+    // MARK: - Outlet collectionView
+    
     @IBOutlet weak var collectionView: UICollectionView!
     
+    // константа для регистрации вью
     let photoCollectionViewCellReuseIdentifire = "photoCollectionViewCellReuseIdentifire"
-    
     var photoAlbom = [String]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        // MARK: - Регистрация collectionView
         collectionView.register(UINib(nibName: "PhotoCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: photoCollectionViewCellReuseIdentifire)
         collectionView.dataSource = self
         collectionView.delegate = self

@@ -10,7 +10,6 @@ import UIKit
 class PhotoCollectionViewCell: UICollectionViewCell {
 
     @IBOutlet weak var photoImageView: UIImageView!
-    
    override func prepareForReuse() {
         super.prepareForReuse()
         photoImageView.image = nil
@@ -19,6 +18,7 @@ class PhotoCollectionViewCell: UICollectionViewCell {
     
     func configure(image: UIImage?) {
         photoImageView.image = image
+        photoImageView.layer.cornerRadius = 50
     }
 
 }
