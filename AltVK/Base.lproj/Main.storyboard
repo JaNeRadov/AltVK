@@ -64,9 +64,34 @@
                                                     <action selector="loginButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WH1-Ju-7KI"/>
                                                 </connections>
                                             </button>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gtj-aW-Jvs">
+                                                <rect key="frame" x="133" y="567" width="20" height="20"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="20" id="oqM-GZ-19H"/>
+                                                    <constraint firstAttribute="height" constant="20" id="qar-7Y-dT1"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GPY-es-zMZ">
+                                                <rect key="frame" x="161" y="567" width="20" height="20"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="20" id="62v-Xo-kSb"/>
+                                                    <constraint firstAttribute="height" constant="20" id="Hen-r5-65T"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7zb-Ty-EwJ">
+                                                <rect key="frame" x="189" y="567" width="20" height="20"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="20" id="0P1-h6-Oq1"/>
+                                                    <constraint firstAttribute="width" constant="20" id="QCN-fd-xdZ"/>
+                                                </constraints>
+                                            </view>
                                         </subviews>
                                         <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
+                                            <constraint firstItem="GPY-es-zMZ" firstAttribute="top" secondItem="bG8-h6-i4x" secondAttribute="bottom" constant="55" id="625-P3-F4C"/>
                                             <constraint firstItem="lRj-Da-4yJ" firstAttribute="leading" secondItem="OeM-f9-AO1" secondAttribute="leading" constant="100" id="6ja-oh-rj5"/>
                                             <constraint firstItem="cAk-Vh-nlH" firstAttribute="leading" secondItem="OeM-f9-AO1" secondAttribute="leading" constant="16" id="7hx-s6-znx"/>
                                             <constraint firstAttribute="trailing" secondItem="MaW-fL-w4B" secondAttribute="trailing" constant="16" id="9Rb-us-fyt"/>
@@ -74,10 +99,13 @@
                                             <constraint firstAttribute="bottom" secondItem="Z1A-gD-QlD" secondAttribute="bottom" constant="685" id="CKi-JI-ZHj"/>
                                             <constraint firstAttribute="trailing" secondItem="cAk-Vh-nlH" secondAttribute="trailing" constant="16" id="DMp-zn-eTX"/>
                                             <constraint firstAttribute="trailing" secondItem="lRj-Da-4yJ" secondAttribute="trailing" constant="100" id="E31-9N-in4"/>
+                                            <constraint firstItem="Gtj-aW-Jvs" firstAttribute="top" secondItem="bG8-h6-i4x" secondAttribute="bottom" constant="55" id="EBD-VE-apW"/>
+                                            <constraint firstItem="GPY-es-zMZ" firstAttribute="leading" secondItem="Gtj-aW-Jvs" secondAttribute="trailing" constant="8" id="IIU-CV-EcT"/>
                                             <constraint firstItem="X5b-a9-uwn" firstAttribute="leading" secondItem="OeM-f9-AO1" secondAttribute="leading" constant="16" id="Ifl-KQ-oB8"/>
                                             <constraint firstItem="bG8-h6-i4x" firstAttribute="centerX" secondItem="OeM-f9-AO1" secondAttribute="centerX" id="Lag-Y7-dtW"/>
                                             <constraint firstItem="lfo-Yi-e4G" firstAttribute="leading" secondItem="OeM-f9-AO1" secondAttribute="leading" constant="100" id="PRc-SF-Znf"/>
                                             <constraint firstItem="bG8-h6-i4x" firstAttribute="width" secondItem="OeM-f9-AO1" secondAttribute="width" multiplier="2:3" id="Qxk-fY-ITe"/>
+                                            <constraint firstItem="Gtj-aW-Jvs" firstAttribute="leading" secondItem="OeM-f9-AO1" secondAttribute="leading" constant="133" id="Rts-F4-Uu3"/>
                                             <constraint firstItem="bG8-h6-i4x" firstAttribute="top" secondItem="lfo-Yi-e4G" secondAttribute="bottom" constant="30" id="Tjl-Qe-Q7A"/>
                                             <constraint firstAttribute="trailing" secondItem="lfo-Yi-e4G" secondAttribute="trailing" constant="100" id="VFQ-ZG-H0G"/>
                                             <constraint firstAttribute="trailing" secondItem="X5b-a9-uwn" secondAttribute="trailing" constant="16" id="Y5t-0N-G3N"/>
@@ -89,6 +117,8 @@
                                             <constraint firstItem="Z1A-gD-QlD" firstAttribute="leading" secondItem="OeM-f9-AO1" secondAttribute="leading" constant="103.5" id="ila-a6-NpS"/>
                                             <constraint firstAttribute="bottom" secondItem="bG8-h6-i4x" secondAttribute="bottom" constant="388" id="k7Z-dc-bVU"/>
                                             <constraint firstAttribute="height" constant="900" id="pfi-58-D92"/>
+                                            <constraint firstItem="7zb-Ty-EwJ" firstAttribute="top" secondItem="bG8-h6-i4x" secondAttribute="bottom" constant="55" id="qQ8-MQ-Xz2"/>
+                                            <constraint firstItem="7zb-Ty-EwJ" firstAttribute="leading" secondItem="GPY-es-zMZ" secondAttribute="trailing" constant="8" id="tYA-SJ-fno"/>
                                             <constraint firstItem="X5b-a9-uwn" firstAttribute="top" secondItem="MaW-fL-w4B" secondAttribute="bottom" constant="20" id="taJ-lG-UkI"/>
                                         </constraints>
                                     </view>
@@ -114,8 +144,12 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="loadViewOne" destination="Gtj-aW-Jvs" id="hsh-Ke-nFH"/>
+                        <outlet property="loadViewThree" destination="7zb-Ty-EwJ" id="ypO-qC-Bwo"/>
+                        <outlet property="loadViewTwo" destination="GPY-es-zMZ" id="qaH-XF-eyk"/>
                         <outlet property="loginTextField" destination="lRj-Da-4yJ" id="qEM-cF-ag3"/>
                         <outlet property="passwordTextField" destination="lfo-Yi-e4G" id="gZg-Ix-JvN"/>
+                        <outlet property="vkLogoView" destination="Z1A-gD-QlD" id="r0o-30-H1U"/>
                         <outlet property="wellcomeLable" destination="MaW-fL-w4B" id="xix-fe-xGx"/>
                         <segue destination="t71-Md-H24" kind="presentation" identifier="toTabBarController" modalPresentationStyle="fullScreen" id="pYh-qt-fIt"/>
                     </connections>
@@ -329,6 +363,9 @@
         <image name="plus.circle" catalog="system" width="128" height="121"/>
         <systemColor name="secondarySystemBackgroundColor">
             <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemGray6Color">
             <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
